@@ -1,0 +1,523 @@
+Trame n°1
+{
+    "Ethernet": {
+        "DestMAC": "08:00:20:0a:ac:96",
+        "SrcMAC": "08:00:20:0a:70:66",
+        "type": "ICMP"
+    },
+    "IP": {
+        "Version": "4",
+        "IHL": "f",
+        "TOS": "00",
+        "Total Length": "124",
+        "Identification": "52169",
+        "Flags": "000",
+        "Fragment Offset": "0b0",
+        "TTL:": "255",
+        "Protocol": "1",
+        "Header Checksum": "b97f",
+        "SrcIP": "132.227.61.5",
+        "DestIP": "192.33.159.6"
+    },
+    "ICMP": {
+        "type": "7",
+        "code": "39",
+        "Checksum": "1024"
+    }
+}
+
+Trame n°2
+{
+    "Ethernet": {
+        "DestMAC": "ac:12:03:99:35:c2",
+        "SrcMAC": "b4:0c:25:e5:00:10",
+        "type": "ARP"
+    },
+    "ARP": {
+        "Hardware": "0x0001",
+        "Protocol": "0x0800",
+        "Hlen": "6",
+        "Tlen": "4",
+        "Operation": "0x0002",
+        "Sender HA": "b4:0c:25:e5:00:10",
+        "Sender IA": "10.51.63.254",
+        "Target HA": "ac:12:03:99:35:c2",
+        "Target IA": "10.51.21.60"
+    }
+}
+
+Trame n°3
+{
+    "Ethernet": {
+        "DestMAC": "b4:0c:25:e5:00:10",
+        "SrcMAC": "ac:12:03:99:35:c2",
+        "type": "ICMP"
+    },
+    "IP": {
+        "Version": "4",
+        "IHL": "5",
+        "TOS": "c0",
+        "Total Length": "356",
+        "Identification": "48317",
+        "Flags": "000",
+        "Fragment Offset": "0b0",
+        "TTL:": "64",
+        "Protocol": "1",
+        "Header Checksum": "527c",
+        "SrcIP": "10.51.21.60",
+        "DestIP": "10.51.63.254"
+    },
+    "ICMP": {
+        "type": "3",
+        "code": "3",
+        "Checksum": "26594"
+    }
+}
+
+Trame n°4
+{
+    "Ethernet": {
+        "DestMAC": "ff:ff:ff:ff:ff:ff",
+        "SrcMAC": "5c:83:8f:e1:38:69",
+        "type": "ARP"
+    },
+    "ARP": {
+        "Hardware": "0x0001",
+        "Protocol": "0x0800",
+        "Hlen": "6",
+        "Tlen": "4",
+        "Operation": "0x0001",
+        "Sender HA": "4a:01:b0:11:fe:83",
+        "Sender IA": "0.0.0.0",
+        "Target HA": "ff:ff:ff:ff:ff:ff",
+        "Target IA": "0.0.0.0"
+    }
+}
+
+Trame n°5
+{
+    "Ethernet": {
+        "DestMAC": "ac:12:03:99:35:c2",
+        "SrcMAC": "b4:0c:25:e5:00:10",
+        "type": "ICMP"
+    },
+    "IP": {
+        "Version": "4",
+        "IHL": "5",
+        "TOS": "00",
+        "Total Length": "84",
+        "Identification": "0",
+        "Flags": "000",
+        "Fragment Offset": "0b0",
+        "TTL:": "114",
+        "Protocol": "1",
+        "Header Checksum": "e831",
+        "SrcIP": "142.250.178.14",
+        "DestIP": "10.51.21.60"
+    },
+    "ICMP": {
+        "type": "0",
+        "code": "0",
+        "Checksum": "7273"
+    }
+}
+
+Trame n°6
+{
+    "Ethernet": {
+        "DestMAC": "b4:0c:25:e5:00:10",
+        "SrcMAC": "ac:12:03:99:35:c2",
+        "type": "ARP"
+    },
+    "ARP": {
+        "Hardware": "0x0001",
+        "Protocol": "0x0800",
+        "Hlen": "6",
+        "Tlen": "4",
+        "Operation": "0x0001",
+        "Sender HA": "ac:12:03:99:35:c2",
+        "Sender IA": "10.51.21.60",
+        "Target HA": "00:00:00:00:00:00",
+        "Target IA": "10.51.63.254"
+    }
+}
+
+Trame n°7
+{
+    "Ethernet": {
+        "DestMAC": "b4:0c:25:e5:00:10",
+        "SrcMAC": "ac:12:03:99:35:c2",
+        "type": "TCP"
+    },
+    "IP": {
+        "Version": "4",
+        "IHL": "5",
+        "TOS": "00",
+        "Total Length": "40",
+        "Identification": "53332",
+        "Flags": "0b1",
+        "Fragment Offset": "0000000b0",
+        "TTL:": "64",
+        "Protocol": "6",
+        "Header Checksum": "b081",
+        "SrcIP": "10.51.21.60",
+        "DestIP": "51.77.103.62"
+    },
+    "TCP": {
+        "Source Port": "57676",
+        "Destination Port": "443",
+        "Sequence Number": "1257240465",
+        "Acknowledgment Number": "77903609",
+        "Offset": "0b10",
+        "Reserved": "100000b",
+        "URG": "b",
+        "ACK": "1",
+        "PSH": "0",
+        "RST": "0",
+        "SYN": "0",
+        "FIN": "0",
+        "Window": "559",
+        "Checksum": "47636",
+        "Urgent Pointer": "0"
+    }
+}
+
+Trame n°8
+{
+    "Ethernet": {
+        "DestMAC": "b4:0c:25:e5:00:10",
+        "SrcMAC": "ac:12:03:99:35:c2",
+        "type": "UDP"
+    },
+    "IP": {
+        "Version": "4",
+        "IHL": "5",
+        "TOS": "00",
+        "Total Length": "62",
+        "Identification": "8755",
+        "Flags": "0b1",
+        "Fragment Offset": "0000000b0",
+        "TTL:": "64",
+        "Protocol": "17",
+        "Header Checksum": "f70b",
+        "SrcIP": "10.51.21.60",
+        "DestIP": "1.1.1.1"
+    },
+    "UDP": {
+        "Source Port": "54084",
+        "Destination Port": "53",
+        "Length": "42",
+        "Checksum": "8620"
+    }
+}
+
+Trame n°9
+{
+    "Ethernet": {
+        "DestMAC": "ac:12:03:99:35:c2",
+        "SrcMAC": "b4:0c:25:e5:00:10",
+        "type": "UDP"
+    },
+    "IP": {
+        "Version": "4",
+        "IHL": "5",
+        "TOS": "a4",
+        "Total Length": "151",
+        "Identification": "11547",
+        "Flags": "0b1",
+        "Fragment Offset": "0000000b0",
+        "TTL:": "54",
+        "Protocol": "17",
+        "Header Checksum": "f526",
+        "SrcIP": "1.1.1.1",
+        "DestIP": "10.51.21.60"
+    },
+    "UDP": {
+        "Source Port": "53",
+        "Destination Port": "34312",
+        "Length": "131",
+        "Checksum": "36849"
+    }
+}
+
+Trame n°10
+{
+    "Ethernet": {
+        "DestMAC": "ff:ff:ff:ff:ff:ff",
+        "SrcMAC": "5c:83:8f:e1:f7:9f",
+        "type": "ARP"
+    },
+    "ARP": {
+        "Hardware": "0x0001",
+        "Protocol": "0x0800",
+        "Hlen": "6",
+        "Tlen": "4",
+        "Operation": "0x0001",
+        "Sender HA": "52:3d:11:75:bf:f8",
+        "Sender IA": "0.0.0.0",
+        "Target HA": "ff:ff:ff:ff:ff:ff",
+        "Target IA": "0.0.0.0"
+    }
+}
+
+Trame n°11
+{
+    "Ethernet": {
+        "DestMAC": "b4:0c:25:e5:00:10",
+        "SrcMAC": "ac:12:03:99:35:c2",
+        "type": "TCP"
+    },
+    "IP": {
+        "Version": "4",
+        "IHL": "5",
+        "TOS": "00",
+        "Total Length": "40",
+        "Identification": "50412",
+        "Flags": "0b1",
+        "Fragment Offset": "0000000b0",
+        "TTL:": "64",
+        "Protocol": "6",
+        "Header Checksum": "f4ed",
+        "SrcIP": "10.51.32.219",
+        "DestIP": "172.217.169.14"
+    },
+    "TCP": {
+        "Source Port": "54830",
+        "Destination Port": "443",
+        "Sequence Number": "1158657185",
+        "Acknowledgment Number": "2708755154",
+        "Offset": "0b10",
+        "Reserved": "100000b",
+        "URG": "b",
+        "ACK": "1",
+        "PSH": "0",
+        "RST": "0",
+        "SYN": "0",
+        "FIN": "0",
+        "Window": "1212",
+        "Checksum": "33040",
+        "Urgent Pointer": "0"
+    }
+}
+
+Trame n°12
+{
+    "Ethernet": {
+        "DestMAC": "b4:0c:25:e5:00:10",
+        "SrcMAC": "ac:12:03:99:35:c2",
+        "type": "ICMP"
+    },
+    "IP": {
+        "Version": "4",
+        "IHL": "5",
+        "TOS": "00",
+        "Total Length": "84",
+        "Identification": "2209",
+        "Flags": "0b1",
+        "Fragment Offset": "0000000b0",
+        "TTL:": "64",
+        "Protocol": "1",
+        "Header Checksum": "04f9",
+        "SrcIP": "10.51.32.219",
+        "DestIP": "1.1.1.1"
+    },
+    "ICMP": {
+        "type": "8",
+        "code": "0",
+        "Checksum": "55217"
+    }
+}
+
+Trame n°13
+{
+    "Ethernet": {
+        "DestMAC": "ac:12:03:99:35:c2",
+        "SrcMAC": "b4:0c:25:e5:00:10",
+        "type": "UDP"
+    },
+    "IP": {
+        "Version": "4",
+        "IHL": "5",
+        "TOS": "a4",
+        "Total Length": "169",
+        "Identification": "59158",
+        "Flags": "0b1",
+        "Fragment Offset": "0000000b0",
+        "TTL:": "54",
+        "Protocol": "17",
+        "Header Checksum": "2f7a",
+        "SrcIP": "1.1.1.1",
+        "DestIP": "10.51.32.219"
+    },
+    "UDP": {
+        "Source Port": "53",
+        "Destination Port": "60659",
+        "Length": "149",
+        "Checksum": "27634"
+    }
+}
+
+Trame n°14
+{
+    "Ethernet": {
+        "DestMAC": "ff:ff:ff:ff:ff:ff",
+        "SrcMAC": "5c:83:8f:e1:f7:9f",
+        "type": "ARP"
+    },
+    "ARP": {
+        "Hardware": "0x0001",
+        "Protocol": "0x0800",
+        "Hlen": "6",
+        "Tlen": "4",
+        "Operation": "0x0002",
+        "Sender HA": "60:83:34:31:f0:79",
+        "Sender IA": "0.0.0.0",
+        "Target HA": "5c:83:8f:e1:f7:9f",
+        "Target IA": "0.0.0.0"
+    }
+}
+
+Trame n°15
+{
+    "Ethernet": {
+        "DestMAC": "b4:0c:25:e5:00:10",
+        "SrcMAC": "ac:12:03:99:35:c2",
+        "type": "UDP"
+    },
+    "IP": {
+        "Version": "4",
+        "IHL": "5",
+        "TOS": "00",
+        "Total Length": "66",
+        "Identification": "64228",
+        "Flags": "0b1",
+        "Fragment Offset": "0000000b0",
+        "TTL:": "64",
+        "Protocol": "17",
+        "Header Checksum": "12b7",
+        "SrcIP": "10.51.32.219",
+        "DestIP": "1.1.1.1"
+    },
+    "UDP": {
+        "Source Port": "48103",
+        "Destination Port": "53",
+        "Length": "46",
+        "Checksum": "11599"
+    }
+}
+
+Trame n°16
+{
+    "Ethernet": {
+        "DestMAC": "b4:0c:25:e5:00:10",
+        "SrcMAC": "ac:12:03:99:35:c2",
+        "type": "TCP"
+    },
+    "IP": {
+        "Version": "4",
+        "IHL": "5",
+        "TOS": "00",
+        "Total Length": "40",
+        "Identification": "49907",
+        "Flags": "0b1",
+        "Fragment Offset": "0000000b0",
+        "TTL:": "64",
+        "Protocol": "6",
+        "Header Checksum": "f6e6",
+        "SrcIP": "10.51.32.219",
+        "DestIP": "172.217.169.14"
+    },
+    "TCP": {
+        "Source Port": "54830",
+        "Destination Port": "443",
+        "Sequence Number": "1158650768",
+        "Acknowledgment Number": "2707491042",
+        "Offset": "0b10",
+        "Reserved": "100000b",
+        "URG": "b",
+        "ACK": "1",
+        "PSH": "0",
+        "RST": "0",
+        "SYN": "0",
+        "FIN": "0",
+        "Window": "81",
+        "Checksum": "33040",
+        "Urgent Pointer": "0"
+    }
+}
+
+Trame n°17
+{
+    "Ethernet": {
+        "DestMAC": "b4:0c:25:e5:00:10",
+        "SrcMAC": "ac:12:03:99:35:c2",
+        "type": "ICMP"
+    },
+    "IP": {
+        "Version": "4",
+        "IHL": "5",
+        "TOS": "00",
+        "Total Length": "84",
+        "Identification": "43948",
+        "Flags": "0b1",
+        "Fragment Offset": "0000000b0",
+        "TTL:": "64",
+        "Protocol": "1",
+        "Header Checksum": "0ce6",
+        "SrcIP": "10.51.32.219",
+        "DestIP": "142.250.200.14"
+    },
+    "ICMP": {
+        "type": "8",
+        "code": "0",
+        "Checksum": "45531"
+    }
+}
+
+Trame n°18
+{
+    "Ethernet": {
+        "DestMAC": "b0:41:6f:04:50:af",
+        "SrcMAC": "ac:12:03:99:35:c2",
+        "type": "TCP"
+    },
+    "IP": {
+        "Version": "4",
+        "IHL": "5",
+        "TOS": "00",
+        "Total Length": "459",
+        "Identification": "44586",
+        "Flags": "0b1",
+        "Fragment Offset": "0000000b0",
+        "TTL:": "64",
+        "Protocol": "6",
+        "Header Checksum": "ea33",
+        "SrcIP": "10.188.230.180",
+        "DestIP": "216.58.215.35"
+    },
+    "TCP": {
+        "Source Port": "48014",
+        "Destination Port": "80",
+        "Sequence Number": "2340224670",
+        "Acknowledgment Number": "3447740236",
+        "Offset": "0b10",
+        "Reserved": "100000b",
+        "URG": "b",
+        "ACK": "1",
+        "PSH": "1",
+        "RST": "0",
+        "SYN": "0",
+        "FIN": "0",
+        "Window": "83",
+        "Checksum": "41612",
+        "Urgent Pointer": "0"
+    },
+    "HTTP": {
+        "Method": "POST",
+        "URI": "/gts1c3",
+        "Version": "HTTP/1.1",
+        "Host:": "ocsp.pki.goog",
+        "User-Agent:": "Mozilla/5.0"
+    }
+}
+
