@@ -22,3 +22,6 @@ Output:
 L'execution du program va generer un fichier [output.txt] avec l'analise
 des tous le trames du fichier pris en question.
 ATTENTION: le fichier [output.txt] serait remplacé aprés chaque execution!
+
+![traffic1](https://user-images.githubusercontent.com/82652619/212859140-d807214f-601d-4209-916f-f3517acce299.png)
+![traffic2](https://user-images.githubusercontent.com/82652619/212859319-60c2d862-1981-409b-934d-7fea32772468.png)
