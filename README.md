@@ -1,11 +1,9 @@
 # Visualisateur de trafic réseau
 
----------------------------------------------------------------------
-                                                                     |
-Projet de IDJER Samy Remy et Mussard Wassim                          |
-Réseaux LU3IN033 - Sorbonne                                          |
-                                                                     |
----------------------------------------------------------------------
+
+Projet de IDJER Samy Remy et Mussard Wassim                          
+Réseaux LU3IN033 - Sorbonne                                          
+                                                                     
 
 Prérequis:
 python3
